@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center ;
+    height: 100vh;
+}
+.colors{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+  
+}
+.colors button{
+    text-align: center;
+    padding: 20px;
+    font:22px bold black;
+    margin: 20px;
+}
+
+.Red:hover,.Green:hover,.Pink:hover,.Yellow:hover,.Black:hover{
+    transform: scale(1.2);
+
+}
+.Red{
+      background-color: red;
+      border: none;
+      border-radius: 10px;
+      transition: transform 1s;
+
+}
+.Green{
+      background-color: green;border: none;
+      transition: transform 1s;
+      border-radius: 10px;
+}
+.Pink{
+      background-color: pink;border: none;
+      transition: transform 1s;
+      border-radius: 10px;
+}
+.Yellow{
+      background-color: yellow;border: none;
+      transition: transform 1s;
+      border-radius: 10px;
+}
+.Black{
+      background-color: Orange;border: none;
+      border-radius: 10px;
+      transition: transform 1s;
+}
+h1{
+    font-size: 3rem;
+}
